@@ -8,3 +8,4 @@ pandas
 deepeval
 python-dotenv
 markdown-it-py
+pymupdf
