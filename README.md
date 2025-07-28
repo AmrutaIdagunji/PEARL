@@ -1,4 +1,4 @@
-# PEARL 2.0
+# PEARL
 
 PEARL (Protocol Evaluation and Review with LLMs) is a Streamlit-based app that uses retrieval-augmented generation (RAG) to assist with clinical protocol assessment.
 
