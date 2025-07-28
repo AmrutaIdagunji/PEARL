@@ -1,13 +1,10 @@
 streamlit
-langchain-community
 langchain
-tempfile
+langchain-community
+langchain-openai
 serpapi
 xhtml2pdf
 pandas
-io
-langchain-core
-langchain-openai
 deepeval
-markdown
 python-dotenv
+markdown-it-py
