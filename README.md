@@ -10,7 +10,7 @@ Follow these steps to set up and run the app locally.
 
 ```bash
 git clone https://github.com/AmrutaIdagunji/PEARL.git
-cd PEARL2.0
+cd PEARL
 ````
 
 Or download the ZIP file and extract it.
