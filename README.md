@@ -44,6 +44,28 @@ Do **not** hardcode API keys in the source files. Use environment variables or `
 
 ---
 
+## 🧭 How to Use
+
+Once the app launches in your browser:
+
+### 1. **Select Guidance Documents**
+
+Upload or select reference documents (e.g., FDA or ICH guidelines) for protocol evaluation. 
+
+### 2. **Upload Clinical Protocols**
+
+Upload one clinical trial protocols (PDFs only). These will be evaluated against the selected guidance documents.
+
+### 3. **Submit for Evaluation**
+
+Click the **Submit** button to start the evaluation. The LLM will generate a structured assessment based on RAG.
+
+### 4. **Review Output**
+
+The results will be displayed.
+
+---
+
 ## 🧠 Built With
 
 * [Streamlit](https://streamlit.io/)
