@@ -24,6 +24,8 @@ import os
 showWarningOnDirectExecution = False
 style_subheader = "font-size: 24px; font-weight:bold; background-color:#F68830; color:white; padding-left:10px; border-radius: 5px;"
 
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
 col1, col2 = st.columns([2, 6])
 with col1:
     st.image("./Logo/ProtocolReviewLogo.png", width=150)
