@@ -21,8 +21,6 @@ from langchain.memory import ConversationBufferMemory
 import streamlit as st
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
-
 showWarningOnDirectExecution = False
 style_subheader = "font-size: 24px; font-weight:bold; background-color:#F68830; color:white; padding-left:10px; border-radius: 5px;"
 
