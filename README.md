@@ -56,5 +56,3 @@ Do **not** hardcode API keys in the source files. Use environment variables or `
 
 For questions or contributions, please reach out to **Amruta Bhat** or open an issue on the repository.
 
-```
-
