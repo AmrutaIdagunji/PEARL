@@ -1,0 +1,13 @@
+streamlit
+langchain_community
+langchain
+tempfile
+serpapi
+xhtml2pdf
+pandas
+io
+langchain_core
+langchain_openai
+deepeval
+markdown
+python-dotenv
