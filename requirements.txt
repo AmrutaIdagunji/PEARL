@@ -9,3 +9,4 @@ deepeval
 python-dotenv
 markdown-it-py
 pymupdf
+faiss-cpu
