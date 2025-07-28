@@ -24,7 +24,13 @@ import os
 showWarningOnDirectExecution = False
 style_subheader = "font-size: 24px; font-weight:bold; background-color:#F68830; color:white; padding-left:10px; border-radius: 5px;"
 
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
+
+if not api_key:
+    st.error("❌ OPENAI_API_KEY is not set in environment variables or Streamlit secrets.")
+    st.stop()
+
+os.environ["OPENAI_API_KEY"] = api_key
 
 col1, col2 = st.columns([2, 6])
 with col1:
