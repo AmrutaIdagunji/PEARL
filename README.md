@@ -54,7 +54,8 @@ Upload or select reference documents (e.g., FDA or ICH guidelines) for protocol 
 
 ### 2. **Upload Clinical Protocols**
 
-Upload one clinical trial protocols (PDFs only). These will be evaluated against the selected guidance documents.
+Upload a clinical trial protocol (PDF only). It will be evaluated against the selected guidance documents.
+A sample protocol is included in this repository under the folder named "sample protocols" for you to try out.
 
 ### 3. **Submit for Evaluation**
 
